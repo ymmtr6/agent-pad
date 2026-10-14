@@ -1,0 +1,73 @@
+{
+  "project": "AgentPad Rev.3",
+  "status": "production-data-generated",
+  "assembled_board_mm": [
+    62.0,
+    62.0
+  ],
+  "panel_mm": [
+    140.0,
+    80.0
+  ],
+  "mcu": "Waveshare RP2040-Zero-M visible top through-hole header mount",
+  "layout": "3x2 / 6x MX direct-solder PTH + bottom-side hot-swap + 1x EC11",
+  "gerber_upload_zip": "manufacturing/agentpad_rev3_JLCPCB_panel.zip",
+  "kicad_drc": {
+    "status": "PASS",
+    "version": "9.0.8",
+    "boards": {
+      "lower": {
+        "violations": 0,
+        "unconnected_items": 0
+      },
+      "upper": {
+        "violations": 0,
+        "unconnected_items": 0
+      }
+    }
+  },
+  "panel_profile": {
+    "mode": "continuous",
+    "all_cutting_lines_closed": true,
+    "board_tab_width_mm": null,
+    "routing_slot_width_mm": null,
+    "npth_drill_file": false
+  },
+  "fabrication": {
+    "gerber_x2_attributes": true,
+    "via_in_pad": false,
+    "minimum_pth_drill_edge_spacing_mm": 1.203,
+    "silkscreen": {
+      "front_and_back": true,
+      "text_height_mm": 1.0,
+      "stroke_width_mm": 0.15,
+      "back_text_mirrored_in_source": true
+    }
+  },
+  "mechanical": {
+    "rp2040_zero_envelope_mm": [
+      18.0,
+      23.5
+    ],
+    "usb_c_overhang_mm": 2.0,
+    "board_to_board_gap_mm": 6.0,
+    "functional_board_corner_radius_mm": 2.0,
+    "rp2040_mount_side": "lower PCB top, visible through upper plate",
+    "header_pitch_mm": 2.54,
+    "header_row_spacing_mm": 15.24,
+    "header_drill_mm": 1.0,
+    "upper_rp2040_notch_mm": [
+      20.0,
+      25.0
+    ],
+    "encoder_opening_mm": [
+      14.0,
+      14.0
+    ],
+    "encoder_opening_shape": "square",
+    "mx_switch_electrical_mount": "1.5 mm plated through-hole plus bottom-side Kailh hot-swap SMD",
+    "kailh_socket_mount_side": "bottom",
+    "upper_marking": "AGENTPAD REV3"
+  },
+  "geometry_checks": "PASS"
+}

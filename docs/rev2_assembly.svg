@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 110">
+<rect width="156" height="110" fill="white"/>
+<g font-family="sans-serif" font-size="3" fill="#172b4d">
+<text x="8" y="7">FRONT / switches from above</text>
+<text x="85" y="7">BACK / sockets from below</text>
+<rect x="8" y="12" width="62" height="80" rx="2" fill="#edf5ee" stroke="#234" stroke-width="0.25"/>
+<circle cx="10.5" cy="14.5" r="2" fill="none" stroke="#789" stroke-width="0.15" stroke-dasharray="0.5 0.5"/>
+<circle cx="10.5" cy="14.5" r="1.1" fill="white" stroke="#234" stroke-width="0.2"/>
+<circle cx="67.5" cy="14.5" r="2" fill="none" stroke="#789" stroke-width="0.15" stroke-dasharray="0.5 0.5"/>
+<circle cx="67.5" cy="14.5" r="1.1" fill="white" stroke="#234" stroke-width="0.2"/>
+<circle cx="10.5" cy="89.5" r="2" fill="none" stroke="#789" stroke-width="0.15" stroke-dasharray="0.5 0.5"/>
+<circle cx="10.5" cy="89.5" r="1.1" fill="white" stroke="#234" stroke-width="0.2"/>
+<circle cx="67.5" cy="89.5" r="2" fill="none" stroke="#789" stroke-width="0.15" stroke-dasharray="0.5 0.5"/>
+<circle cx="67.5" cy="89.5" r="1.1" fill="white" stroke="#234" stroke-width="0.2"/>
+<rect x="12.95" y="39.0" width="14" height="14" fill="none" stroke="#789" stroke-width="0.2"/>
+<circle cx="19.95" cy="46.0" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="14.87" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="25.03" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="16.14" cy="43.46" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="22.49" cy="40.92" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="19.95" y="51.0" text-anchor="middle" font-size="2">SW1</text>
+<rect x="32.0" y="39.0" width="14" height="14" fill="none" stroke="#789" stroke-width="0.2"/>
+<circle cx="39.0" cy="46.0" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="33.92" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="44.08" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="35.19" cy="43.46" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="41.54" cy="40.92" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="39.0" y="51.0" text-anchor="middle" font-size="2">SW2</text>
+<rect x="51.05" y="39.0" width="14" height="14" fill="none" stroke="#789" stroke-width="0.2"/>
+<circle cx="58.05" cy="46.0" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="52.97" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="63.129999999999995" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="54.239999999999995" cy="43.46" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="60.589999999999996" cy="40.92" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="58.05" y="51.0" text-anchor="middle" font-size="2">SW3</text>
+<rect x="12.95" y="58.05" width="14" height="14" fill="none" stroke="#789" stroke-width="0.2"/>
+<circle cx="19.95" cy="65.05" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="14.87" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="25.03" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="16.14" cy="62.51" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="22.49" cy="59.97" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="19.95" y="70.05" text-anchor="middle" font-size="2">SW4</text>
+<rect x="32.0" y="58.05" width="14" height="14" fill="none" stroke="#789" stroke-width="0.2"/>
+<circle cx="39.0" cy="65.05" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="33.92" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="44.08" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="35.19" cy="62.51" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="41.54" cy="59.97" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="39.0" y="70.05" text-anchor="middle" font-size="2">SW5</text>
+<rect x="51.05" y="58.05" width="14" height="14" fill="none" stroke="#789" stroke-width="0.2"/>
+<circle cx="58.05" cy="65.05" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="52.97" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="63.129999999999995" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="54.239999999999995" cy="62.51" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="60.589999999999996" cy="59.97" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="58.05" y="70.05" text-anchor="middle" font-size="2">SW6</text>
+<rect x="12.95" y="77.1" width="14" height="14" fill="none" stroke="#789" stroke-width="0.2"/>
+<circle cx="19.95" cy="84.1" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="14.87" cy="84.1" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="25.03" cy="84.1" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="16.14" cy="81.55999999999999" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="22.49" cy="79.02" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="19.95" y="89.1" text-anchor="middle" font-size="2">SW7</text>
+<rect x="32.0" y="77.1" width="14" height="14" fill="none" stroke="#789" stroke-width="0.2"/>
+<circle cx="39.0" cy="84.1" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="33.92" cy="84.1" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="44.08" cy="84.1" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="35.19" cy="81.55999999999999" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="41.54" cy="79.02" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="39.0" y="89.1" text-anchor="middle" font-size="2">SW8</text>
+<circle cx="46.62" cy="13.69" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="46.62" cy="16.23" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="46.62" cy="18.77" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="46.62" cy="21.31" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="46.62" cy="23.85" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="46.62" cy="26.39" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="46.62" cy="28.93" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="46.62" cy="31.47" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="46.62" cy="34.01" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="34.01" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="31.47" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="28.93" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="26.39" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="23.85" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="21.31" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="18.77" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="16.23" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="31.38" cy="13.69" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="58.05" cy="84.1" r="3" fill="none" stroke="#234" stroke-width="0.25"/>
+<rect x="85" y="12" width="62" height="80" rx="2" fill="#edf5ee" stroke="#234" stroke-width="0.25"/>
+<circle cx="144.5" cy="14.5" r="2" fill="none" stroke="#789" stroke-width="0.15" stroke-dasharray="0.5 0.5"/>
+<circle cx="144.5" cy="14.5" r="1.1" fill="white" stroke="#234" stroke-width="0.2"/>
+<circle cx="87.5" cy="14.5" r="2" fill="none" stroke="#789" stroke-width="0.15" stroke-dasharray="0.5 0.5"/>
+<circle cx="87.5" cy="14.5" r="1.1" fill="white" stroke="#234" stroke-width="0.2"/>
+<circle cx="144.5" cy="89.5" r="2" fill="none" stroke="#789" stroke-width="0.15" stroke-dasharray="0.5 0.5"/>
+<circle cx="144.5" cy="89.5" r="1.1" fill="white" stroke="#234" stroke-width="0.2"/>
+<circle cx="87.5" cy="89.5" r="2" fill="none" stroke="#789" stroke-width="0.15" stroke-dasharray="0.5 0.5"/>
+<circle cx="87.5" cy="89.5" r="1.1" fill="white" stroke="#234" stroke-width="0.2"/>
+<rect x="141.335" y="42.21" width="2.55" height="2.5" fill="#bd761a"/>
+<rect x="127.48499999999999" y="39.67" width="2.55" height="2.5" fill="#bd761a"/>
+<circle cx="135.05" cy="46.0" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="140.13" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="129.97" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="138.86" cy="43.46" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="132.51" cy="40.92" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="135.05" y="51.0" text-anchor="middle" font-size="2">SW1</text>
+<rect x="122.285" y="42.21" width="2.55" height="2.5" fill="#bd761a"/>
+<rect x="108.435" y="39.67" width="2.55" height="2.5" fill="#bd761a"/>
+<circle cx="116.0" cy="46.0" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="121.08" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="110.92" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="119.81" cy="43.46" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="113.46000000000001" cy="40.92" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="116.0" y="51.0" text-anchor="middle" font-size="2">SW2</text>
+<rect x="103.235" y="42.21" width="2.55" height="2.5" fill="#bd761a"/>
+<rect x="89.38499999999999" y="39.67" width="2.55" height="2.5" fill="#bd761a"/>
+<circle cx="96.95" cy="46.0" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="102.03" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="91.87" cy="46.0" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="100.76" cy="43.46" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="94.41" cy="40.92" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="96.95" y="51.0" text-anchor="middle" font-size="2">SW3</text>
+<rect x="141.335" y="61.26" width="2.55" height="2.5" fill="#bd761a"/>
+<rect x="127.48499999999999" y="58.72" width="2.55" height="2.5" fill="#bd761a"/>
+<circle cx="135.05" cy="65.05" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="140.13" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="129.97" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="138.86" cy="62.51" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="132.51" cy="59.97" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="135.05" y="70.05" text-anchor="middle" font-size="2">SW4</text>
+<rect x="122.285" y="61.26" width="2.55" height="2.5" fill="#bd761a"/>
+<rect x="108.435" y="58.72" width="2.55" height="2.5" fill="#bd761a"/>
+<circle cx="116.0" cy="65.05" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="121.08" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="110.92" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="119.81" cy="62.51" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="113.46000000000001" cy="59.97" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="116.0" y="70.05" text-anchor="middle" font-size="2">SW5</text>
+<rect x="103.235" y="61.26" width="2.55" height="2.5" fill="#bd761a"/>
+<rect x="89.38499999999999" y="58.72" width="2.55" height="2.5" fill="#bd761a"/>
+<circle cx="96.95" cy="65.05" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="102.03" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="91.87" cy="65.05" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="100.76" cy="62.51" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="94.41" cy="59.97" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="96.95" y="70.05" text-anchor="middle" font-size="2">SW6</text>
+<rect x="141.335" y="80.30999999999999" width="2.55" height="2.5" fill="#bd761a"/>
+<rect x="127.48499999999999" y="77.77" width="2.55" height="2.5" fill="#bd761a"/>
+<circle cx="135.05" cy="84.1" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="140.13" cy="84.1" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="129.97" cy="84.1" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="138.86" cy="81.55999999999999" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="132.51" cy="79.02" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="135.05" y="89.1" text-anchor="middle" font-size="2">SW7</text>
+<rect x="122.285" y="80.30999999999999" width="2.55" height="2.5" fill="#bd761a"/>
+<rect x="108.435" y="77.77" width="2.55" height="2.5" fill="#bd761a"/>
+<circle cx="116.0" cy="84.1" r="1.9939" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="121.08" cy="84.1" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="110.92" cy="84.1" r="0.875" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="119.81" cy="81.55999999999999" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<circle cx="113.46000000000001" cy="79.02" r="1.5" fill="white" stroke="#234" stroke-width="0.15"/>
+<text x="116.0" y="89.1" text-anchor="middle" font-size="2">SW8</text>
+<circle cx="108.38" cy="13.69" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="108.38" cy="16.23" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="108.38" cy="18.77" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="108.38" cy="21.31" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="108.38" cy="23.85" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="108.38" cy="26.39" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="108.38" cy="28.93" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="108.38" cy="31.47" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="108.38" cy="34.01" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="34.01" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="31.47" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="28.93" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="26.39" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="23.85" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="21.31" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="18.77" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="16.23" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="123.62" cy="13.69" r="0.5" fill="white" stroke="#bd761a" stroke-width="0.4"/>
+<circle cx="96.95" cy="84.1" r="3" fill="none" stroke="#234" stroke-width="0.25"/>
+<text x="8" y="99">62 x 80 mm PCB / 8 MX keys / 4 corner holes: M2, 2.2 mm NPTH</text>
+<text x="8" y="105">Large offset holes: 3.0 mm NPTH. Gold pads: bottom only. Mechanical assembly guide.</text>
+</g></svg>

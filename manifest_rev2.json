@@ -1,0 +1,96 @@
+{
+  "project": "AgentPad Rev2 single PCB",
+  "status": "electrically-validated-prototype",
+  "board_count": 1,
+  "assembled_board_mm": [
+    62,
+    80
+  ],
+  "pcb_thickness_mm": 1.6,
+  "panelized": false,
+  "keys": 8,
+  "switch_pitch_mm": 19.05,
+  "socket": "Kailh CPG151101S11",
+  "socket_side": "B.Cu",
+  "switch_insertion_side": "F.Cu",
+  "socket_holes": "3.0 mm NPTH",
+  "direct_solder_supported": false,
+  "mounting": {
+    "screw": "M2",
+    "hole_diameter_mm": 2.2,
+    "plated": false,
+    "centres_mm": [
+      [
+        2.5,
+        2.5
+      ],
+      [
+        59.5,
+        2.5
+      ],
+      [
+        2.5,
+        77.5
+      ],
+      [
+        59.5,
+        77.5
+      ]
+    ],
+    "max_head_or_boss_diameter_mm": 4.0,
+    "copper_keepout_diameter_mm": 5.0,
+    "minimum_head_to_copper_gaps_mm": [
+      15.718,
+      14.953,
+      0.85,
+      0.797
+    ]
+  },
+  "gerber_upload_zip": "manufacturing/agentpad_rev2_single_gerber.zip",
+  "kicad_drc": {
+    "status": "PASS",
+    "violations": 0,
+    "unconnected_items": 0
+  },
+  "geometry_checks": "PASS",
+  "physical_fit": "not tested",
+  "enclosure": "3D printed; see docs/REV2_SINGLE_PCB.md",
+  "key_centres_mm": [
+    [
+      11.95,
+      34.0
+    ],
+    [
+      31.0,
+      34.0
+    ],
+    [
+      50.05,
+      34.0
+    ],
+    [
+      11.95,
+      53.05
+    ],
+    [
+      31.0,
+      53.05
+    ],
+    [
+      50.05,
+      53.05
+    ],
+    [
+      11.95,
+      72.1
+    ],
+    [
+      31.0,
+      72.1
+    ]
+  ],
+  "encoder_centre_mm": [
+    50.05,
+    72.1
+  ]
+}

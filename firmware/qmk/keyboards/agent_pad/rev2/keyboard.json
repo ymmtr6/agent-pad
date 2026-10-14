@@ -1,0 +1,50 @@
+{
+    "keyboard_name": "AgentPad Rev2",
+    "manufacturer": "AgentPad",
+    "maintainer": "riku",
+    "url": "https://github.com/ymmtr6/agent-pad",
+    "usb": {
+        "vid": "0x4150",
+        "pid": "0xA902",
+        "device_version": "2.0.0"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "bootloader_instructions": "Press BOOT and RESET together, release RESET, then release BOOT.",
+    "features": {
+        "bootmagic": true,
+        "encoder": true,
+        "extrakey": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP0", "GP1", "GP2"],
+            ["GP3", "GP4", "GP5"],
+            ["GP6", "GP7", "GP15"]
+        ]
+    },
+    "encoder": {
+        "rotary": [
+            {
+                "pin_a": "GP8",
+                "pin_b": "GP14",
+                "resolution": 4
+            }
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0, "label": "SW1 / F13"},
+                {"matrix": [0, 1], "x": 1, "y": 0, "label": "SW2 / F14"},
+                {"matrix": [0, 2], "x": 2, "y": 0, "label": "SW3 / F15"},
+                {"matrix": [1, 0], "x": 0, "y": 1, "label": "SW4 / F16"},
+                {"matrix": [1, 1], "x": 1, "y": 1, "label": "SW5 / F17"},
+                {"matrix": [1, 2], "x": 2, "y": 1, "label": "SW6 / F18"},
+                {"matrix": [2, 0], "x": 0, "y": 2, "label": "SW7 / F19"},
+                {"matrix": [2, 1], "x": 1, "y": 2, "label": "SW8 / F20"},
+                {"matrix": [2, 2], "x": 2, "y": 2, "label": "Encoder / Mute", "encoder": 0}
+            ]
+        }
+    }
+}
