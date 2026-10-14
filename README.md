@@ -104,3 +104,9 @@ G-code は Creality Ender-3 V3 SE と PLA 用です。USB 接続での印刷手�
 | `docs/` | 設計メモ、発注手順、検証結果、画像 |
 
 Rev1（2 枚構成の旧版）のデータも含まれています。
+
+## ライセンス
+
+[MIT License](LICENSE) です。
+
+ただし `firmware/` 以下は QMK Firmware 向けのコードと、QMK を含めてビルドした UF2 なので、QMK に合わせて GPL-2.0-or-later とします。
