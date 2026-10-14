@@ -2,9 +2,9 @@
 
 ## Project Structure & Module Organization
 
-AgentPad combines PCB, mechanical, and firmware sources. Editable KiCad boards and the local footprint library live in `kicad/`. Generator scripts are in `scripts/`; `generate_agentpad_rev1.py` contains the shared implementation, while the Rev.2 and Rev.3 scripts select revision-specific settings. QMK keyboard definitions are under `firmware/qmk/keyboards/agent_pad/<revision>/`. Mechanical models, printable keycaps, and OpenSCAD sources belong in `cad/`.
+AgentPad combines PCB, mechanical, and firmware sources. Editable KiCad boards and the local footprint library live in `kicad/`. Generator scripts are in `scripts/`; `generate_agentpad_rev1.py` contains the shared implementation, while `generate_agentpad_rev2.py` selects the Rev2 single-PCB settings. QMK keyboard definitions are under `firmware/qmk/keyboards/agent_pad/<revision>/`. Mechanical models, printable keycaps, and OpenSCAD sources belong in `cad/`.
 
-Treat `gerber/`, `manufacturing/`, `docs/drc/`, manifests, and packaged UF2 files as generated or release artifacts. Keep revision-specific names consistent, for example `agentpad_rev3_lower.kicad_pcb` and `VALIDATION_REV3.md`.
+Treat `gerber/`, `manufacturing/`, `docs/drc/`, manifests, and packaged UF2 files as generated or release artifacts. Keep revision-specific names consistent, for example `agentpad_rev2_single.kicad_pcb` and `VALIDATION_REV2.md`.
 
 ## Build, Test, and Development Commands
 
@@ -18,16 +18,16 @@ python3 -m venv .venv
 Regenerate a revision into a disposable local directory (the default output path is `/mnt/data`):
 
 ```sh
-AGENTPAD_OUT=/tmp/agentpad_rev3_complete .venv/bin/python scripts/generate_agentpad_rev3.py
+AGENTPAD_OUT=/tmp/agentpad_rev2_single_build .venv/bin/python scripts/generate_agentpad_rev2.py
 ```
 
-Run KiCad 9 design-rule checks for both lower and upper boards:
+Run KiCad 9 design-rule checks:
 
 ```sh
-scripts/run_kicad_drc.sh rev3
+scripts/run_kicad_drc.sh rev2
 ```
 
-For firmware, copy the desired revision directory into an official QMK checkout, then run `make agent_pad/rev3:default` (or `rev1`). See `firmware/readme.md` for the complete copy and flashing workflow.
+For firmware, copy the desired revision directory into an official QMK checkout, then run `make agent_pad/rev2:default` (or `rev2:via`, `rev1:default`). See `firmware/readme.md` for the complete copy and flashing workflow.
 
 ## Coding Style & Naming Conventions
 
@@ -39,4 +39,4 @@ There is no unit-test suite. A hardware change is complete only when generator g
 
 ## Commit & Pull Request Guidelines
 
-Git history is unavailable in this checkout, so use short, imperative commit subjects such as `Fix Rev3 encoder clearance`. Keep commits scoped to one revision or subsystem. Pull requests should explain the physical or electrical impact, list validation commands and results, link relevant issues, and include KiCad or Gerber screenshots for layout changes. Call out regenerated artifacts and any fabrication-setting changes explicitly.
+Use short, imperative commit subjects such as `Fix Rev2 encoder clearance`. Keep commits scoped to one revision or subsystem. Pull requests should explain the physical or electrical impact, list validation commands and results, link relevant issues, and include KiCad or Gerber screenshots for layout changes. Call out regenerated artifacts and any fabrication-setting changes explicitly.

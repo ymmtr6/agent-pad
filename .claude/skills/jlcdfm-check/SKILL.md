@@ -13,7 +13,7 @@ Claude in Chrome（`mcp__claude-in-chrome__*`）でブラウザを操作する�
 - JLCONE（デスクトップアプリ）の DFM 結果は、jlcpcb.com のプロジェクトページ（Tasks / Files / Orders）には出ない。JLCONE の画面は Chrome から見えないので、**jlcdfm.com に ZIP を直接アップロードして同じチェックを再現する**。
 - ユーザーが JLCDFM の viewer（`https://jlcdfm.com/viewer?pcbUploadFileId=...`）を開いている場合は、`tabs_context_mcp` でそのタブを見つけて結果を読むだけでよい。
 - **アップロードするのは発注用の `manufacturing/agentpad_<rev>_gerber.zip`**。`*_complete.zip` には KiCad データ・スクリプト・STL などが入っていて Gerber もサブフォルダ下にあるので、発注にも DFM 確認にも使わない。ユーザーが complete を DFM にかけていたら指摘する。
-- 面付けリビジョン（rev3 など）は `agentpad_<rev>_JLCPCB_panel.zip` が発注単位。どれを使うか曖昧なら AskUserQuestion で確認する。
+- 面付けリビジョン（rev1 など）は `agentpad_<rev>_JLCPCB_panel.zip` が発注単位。どれを使うか曖昧なら AskUserQuestion で確認する。
 - 結果の数字は各項目 **(Danger, Warning, Good)** の件数。Danger が 0 なら発注可能。
 
 ## 手順 1: アップロードして DFM check を実行
@@ -34,14 +34,14 @@ Claude in Chrome（`mcp__claude-in-chrome__*`）でブラウザを操作する�
 - 座標を KiCad データ（`kicad/*.kicad_pcb`）と突き合わせて、原因のパッド・トレース・ラベルを特定する。Gerber の Y は KiCad の Y と符号が逆になる。
 - 原因を説明するときは、**実害があるか（発注を止めるべきか）**と、**生成スクリプトのどこで直すか**を分けて書く。
 
-### 過去に出た項目と対処（AgentPad rev2 single / rev3 panel）
+### 過去に出た項目と対処（AgentPad rev2 single ほか）
 
 | 項目 | 原因 | 対処 |
 |---|---|---|
 | Annular ring（SW センター穴 ×16） | NPTH パッドの `size` を小数点以下 3 桁に丸めたため穴径 3.9878 より 0.0002 mm 大きくなり、Gerber に銅の円が残った | `scripts/generate_agentpad_rev1.py` の `pad_th()` で NPTH のサイズを drill と同値にした（全リビジョン共通） |
 | Solder mask opening exposing trace（1 件） | SW3 ソケットパッドのマスク開口すれすれを同じネット（K3）のトレースが通っていた。実害なし | 引き込み経路をパッドの上側から入るように変更（SINGLE_PCB 限定） |
 | Silkscreen to hole（14 件） | MCU ピンラベル `GND` が GND ビア `(21, 4)` の真下にあった。**JLC は文字の 1 画ごとに 1 件と数える**ので、14 件でも原因は 1 か所のことが多い | 左側ラベルの X 位置をずらした（−12.8 だと別のシルクと重なって DRC 違反になったので −12.0） |
-| tht to smd（rev3 で 12 件） | 直挿し用 PTH と ホットスワップ SMD パッドが 1.38 mm。基準は 2.03 mm 未満がエラー | JLC に実装（PCBA）を頼む場合だけ関係する。手はんだなら無視してよい |
+| tht to smd（面付け版で 12 件） | 直挿し用 PTH と ホットスワップ SMD パッドが 1.38 mm。基準は 2.03 mm 未満がエラー | JLC に実装（PCBA）を頼む場合だけ関係する。手はんだなら無視してよい |
 | Silkscreen line width（警告 100 件） | 線幅 0.15 mm が推奨下限付近 | 警告のみ。発注可能 |
 
 判定基準の目安: Silkscreen to hole は 0.13 mm 未満が Danger、0.13〜0.18 mm が Warning。
