@@ -75,8 +75,9 @@ System Settings > Keyboard > Keyboard Shortcuts > Display, or remap the keys.
 
 ### Rev2 VIA
 
-`keymaps/via` enables VIA (`firmware/build/agent_pad_rev2_via.uf2`, SHA-256
-`cd89d3003a331fa5fdb6853f26ba784cc994ffbb2ae1582bacadab350f89e3a2`). QMK lint
+`keymaps/via` enables VIA and Mouse Keys (`firmware/build/agent_pad_rev2_via.uf2`,
+SHA-256 `9393e35c63271723038eaf9c6ea85537d72f1e23804396a3553942a368292ba6`,
+built on 2026-10-15 with QMK master `7a1bbf37`). QMK lint
 rejects keymaps named `via` in the upstream tree; lint the keyboard with
 `-km default` and build with `make agent_pad/rev2:via`.
 
